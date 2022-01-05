@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactsListCV Should render correctly with 3 locations 1`] = `
+<List
+  dataSource={
+    Array [
+      Array [
+        "phone",
+        "+375111111",
+      ],
+      Array [
+        "email",
+        "test@test.com",
+      ],
+      Array [
+        "skype",
+        "test_skypeid",
+      ],
+      Array [
+        "telegram",
+        "test_tg",
+      ],
+      Array [
+        "linkedin",
+        "test",
+      ],
+      Array [
+        "locations",
+        "Test, Test;Test2, Test2;Test3, Test3",
+      ],
+      Array [
+        "github",
+        "test",
+      ],
+      Array [
+        "website",
+        "https://test.com",
+      ],
+    ]
+  }
+  renderItem={[Function]}
+  size="small"
+/>
+`;
+
+exports[`ContactsListCV Should render correctly with all filled contacts 1`] = `
+<List
+  dataSource={
+    Array [
+      Array [
+        "phone",
+        "+375111111",
+      ],
+      Array [
+        "email",
+        "test@test.com",
+      ],
+      Array [
+        "skype",
+        "test_skypeid",
+      ],
+      Array [
+        "telegram",
+        "test_tg",
+      ],
+      Array [
+        "linkedin",
+        "test",
+      ],
+      Array [
+        "locations",
+        "Test, Test",
+      ],
+      Array [
+        "github",
+        "test",
+      ],
+      Array [
+        "website",
+        "https://test.com",
+      ],
+    ]
+  }
+  renderItem={[Function]}
+  size="small"
+/>
+`;
+
+exports[`ContactsListCV Should render correctly with excess contacts data 1`] = `
+<List
+  dataSource={
+    Array [
+      Array [
+        "phone",
+        "+375111111",
+      ],
+      Array [
+        "email",
+        "test@test.com",
+      ],
+      Array [
+        "skype",
+        "test_skypeid",
+      ],
+      Array [
+        "telegram",
+        "test_tg",
+      ],
+      Array [
+        "linkedin",
+        "test",
+      ],
+      Array [
+        "locations",
+        "Test, Test",
+      ],
+      Array [
+        "github",
+        "test",
+      ],
+      Array [
+        "website",
+        "https://test.com",
+      ],
+      Array [
+        "someOtherContact",
+        "test",
+      ],
+      Array [
+        "test",
+        "test",
+      ],
+      Array [
+        "foo",
+        "bar",
+      ],
+      Array [
+        "bar",
+        "baz",
+      ],
+    ]
+  }
+  renderItem={[Function]}
+  size="small"
+/>
+`;
+
+exports[`ContactsListCV Should render correctly with no contacts data 1`] = `""`;

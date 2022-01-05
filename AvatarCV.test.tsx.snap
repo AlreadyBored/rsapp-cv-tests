@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AvatarCV Should render correctly with source 1`] = `
+<Avatar
+  icon={null}
+  shape="circle"
+  size={120}
+  src="https://example.com"
+/>
+`;
+
+exports[`AvatarCV Should render correctly without source 1`] = `
+<Avatar
+  icon={<ForwardRef(UserOutlined) />}
+  shape="circle"
+  size={120}
+/>
+`;
